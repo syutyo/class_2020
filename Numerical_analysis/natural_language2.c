@@ -3,6 +3,7 @@
 #include <stdlib.h>
 
 //確率的自然言語生成プログラムです
+//実験用プログラムファイルです
 int main(void){
 
     FILE *fp1,*fp2;
@@ -41,4 +42,68 @@ int main(void){
 
     return 0;
 
+}
+int alpha_count(char ch){
+    int count[26];
+
+    switch (ch)
+    {
+    case 'a':
+        break;
+    case 'b':
+        break;
+    case 'c':
+        break;
+    case 'd':
+        break;
+    case 'e':
+        break;
+    case 'f':
+        break;
+    case 'g':
+        break;
+    case 'h':
+        break;
+    case 'i':
+        break;
+    case 'j':
+        break;
+    case 'k':
+        break;
+    case 'l':
+        break;
+    case 'm':
+        break;
+    case 'n':
+        break;
+    case 'o':
+        break;
+    case 'p':
+        break;
+    case 'q':
+        break;
+    case 'r':
+        break;
+    case 's':
+        break;
+    case 't':
+        break;
+    case 'u':
+        break;
+    case 'v':
+        break;
+    case 'w':
+        break;
+    case 'x':
+        break;
+    case 'y':
+        break;
+    case 'z':
+        break;
+
+    default:
+        count[26];
+        break;
+    }
+    
 }
