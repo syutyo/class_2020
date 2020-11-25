@@ -20,7 +20,7 @@ int main(void){
     }
 
     while(feof(fp1)==0){
-        ch = fgetc(fp1);
+        ch = tolower(fgetc(fp1));
         if(isalpha(ch)!= 0 || ch == ' '){
             if(fputc(ch,fp2) == EOF){
             printf("ファイルに書き込めませんでした");
@@ -42,9 +42,4 @@ int main(void){
 
     return 0;
 
-}
-int alpha_count(char ch){
-    int count[26];
-
-    
 }
